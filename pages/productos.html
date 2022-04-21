@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="stylesheet" href="C:\Users\gaspar\Desktop\primeraentrega-final\estilos.css">
     <title>Document</title>
@@ -11,15 +12,33 @@
 <body class="fondo">
     <header>
     
-        <nav>
-            <div> <h1 class="logo"> GJ</h1></div>
-            <ul>
-                <li><a href="C:\Users\gaspar\Desktop\primeraentrega-final\index.html">Inicio</a></li>
-                <li><a href="C:\Users\gaspar\Desktop\primeraentrega-final\pages\productos.html">Productos</a></li>
-                <li><a href="C:\Users\gaspar\Desktop\primeraentrega-final\pages\Quienes-somos.html">Quienes somos</a></li>
-                <li><a href="C:\Users\gaspar\Desktop\primeraentrega-final\pages\contacto.html">Contacto</a></li>
-                <li><a href="C:\Users\gaspar\Desktop\primeraentrega-final\pages\donde-distribuimos.html">Donde distribuimos</a></li>
-        </ul>
+        <nav class="navbar navbar-expand-lg  ">
+            <div class="container-fluid ">
+                <a class="navbar-brand" href="#">GJ</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span >Menu</span>
+                </button>
+                <div class="collapse navbar-collapse flex-row-reverse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active colorItem" aria-current="page" href="../index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active colorItem" href="../pages/productos.html">Productos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active colorItem" href="../pages/Quienes-somos.html">Quienes somos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active colorItem"  href="../pages/donde-distribuimos.html">Donde distribuimos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active colorItem"  href="../pages/contacto.html">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </nav>
     </header>
     <main>

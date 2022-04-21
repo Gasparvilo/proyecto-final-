@@ -6,33 +6,29 @@
 }
 
 
-header{
+.navbar-brand{
+    font-size: 40px;
+    color: black;
+}
+
+.navbar{
     background: linear-gradient(266deg, rgb(183, 206, 164) 0%, rgb(169, 219, 146) 47%, rgb(125, 184, 92) 100%) rgb(57, 179, 41); 
 }
-
-
-nav{
-display: flex;
-justify-content: space-between;
+.container-fluid{
+    display: flex;
+    justify-content: space-around;
+}
+.nav-link{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    margin: 5px;
 }
 
-
-nav li a{
-text-decoration: none;
-font-family: Verdana, Geneva, Tahoma, sans-serif;
-color:rgb(0, 0, 0);
-padding: 20px;
-display: inline-block;
-}
-
-
-nav li a:hover{
-    background-color: rgb(250, 164, 6);
-}
-
-
-nav li{ 
-    display: inline-block;
+.nav-link:hover{
+    text-decoration: none;
+    background-color: chocolate;
+    border-radius: 30px;
 }
 
 
@@ -168,6 +164,7 @@ color: aliceblue;
 
 footer{
     background-color: black;
+    
 }
 
 
@@ -183,6 +180,12 @@ color: aliceblue;
     display: flex;
     text-align: center;
     justify-content: center;
+    
+}
+
+
+.padre-li{
+    text-decoration: none;
 }
 
 
@@ -191,6 +194,7 @@ color: aliceblue;
 color: aliceblue;
 margin-left: 50px;
 margin-right: 50px;
+
 }
 
 
